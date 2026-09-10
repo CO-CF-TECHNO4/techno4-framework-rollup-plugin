@@ -1,12 +1,12 @@
 const { rollup } = require('rollup');
 const { babel } = require('@rollup/plugin-babel');
 const css = require('rollup-plugin-css-only');
-const framework7 = require('../lib/index');
+const techno4Plugin = require('../lib/index');
 
 rollup({
   input: './test/app.js',
   plugins: [
-    framework7({ emitCss: true }),
+    techno4Plugin({ emitCss: true }),
     css({ output: 'app-bundle.css' }),
     babel({
       presets: [
@@ -20,7 +20,7 @@ rollup({
       ],
     }),
   ],
-  external: ['framework7'],
+  external: ['techno4'],
 }).then((bundle) =>
   bundle.write({
     format: 'esm',

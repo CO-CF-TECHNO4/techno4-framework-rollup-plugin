@@ -1,21 +1,27 @@
 {
   "name": "rollup-plugin-techno4",
-  "version": "0.1.0",
+  "version": "2.0.0",
   "description": "Techno4 single-file component loader for Rollup and Vite",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node test/rollup.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://terminal.techno4.online/T4Public/techno4-rollup-plugin"
+    "url": "git@github.com:CO-CF-TECHNO4/techno4-framework-rollup-plugin.git"
   },
-  "author": "Techno4",
-  "license": "MIT",
+  "author": "CO «CF TECHNO4» <office@techno4.online>",
+  "license": "LGPL-3.0-or-later",
   "bugs": {
-    "url": "https://terminal.techno4.online/T4Public/techno4-rollup-plugin"
+    "url": "https://github.com/CO-CF-TECHNO4/techno4-framework-rollup-plugin/issues"
   },
-  "homepage": "https://terminal.techno4.online/T4Public/techno4-rollup-plugin",
+  "homepage": "https://techno4.online",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@babel/core": "^7.12.16",
     "@rollup/pluginutils": "^4.1.0",
