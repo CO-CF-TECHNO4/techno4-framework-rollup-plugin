@@ -1,8 +1,8 @@
 # Rollup Techno4 Component Loader (`rollup-plugin-techno4`)
 
-> Rollup & Vite plugin to load Techno4 Framework 2 Single-File Components (`.t4.html`, `.t4`, `.techno4.html`, `.t4.js`).
+> Rollup & Vite plugin to load TECHNO4 FRAMEWORK2 Single-File Components (`.t4.html`, `.t4`, `.techno4.html`, `.t4.js`).
 
-Part of the **Techno4 Framework 2** ecosystem by **CO «CF TECHNO4»** (`благодійна організація «БЛАГОДІЙНИЙ ФОНД ТЕХНО4»`).
+Part of the **TECHNO4 FRAMEWORK2** ecosystem by **CO «CF TECHNO4»** (`благодійна організація «БЛАГОДІЙНИЙ ФОНД ТЕХНО4»`).
 
 ---
 
