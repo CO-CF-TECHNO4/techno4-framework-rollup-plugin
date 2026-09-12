@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-techno4",
-  "version": "2.0.0",
+  "version": "2.0.4",
   "description": "Techno4 single-file component loader for Rollup and Vite",
   "main": "lib/index.js",
   "scripts": {
